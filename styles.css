@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'sans-work';
+    src: url(./assets/fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+h1 {
+    font-family: 'sans-work';
+    color: red;
+}
