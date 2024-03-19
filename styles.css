@@ -5,11 +5,30 @@
 
 h1 {
     font-family: 'sans-work';
-    color: red;
+    color: hsl(292, 42%, 14%);
 }
 
 body {
     background-image: url(./assets/images/background-pattern-desktop.svg);
-    background-repeat: no-repeat;
-    background-color: hsl(275, 100%, 97%)
+    background-repeat: repeat-x;
+    background-color: hsl(275, 100%, 97%);
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.faq-container {
+    width: 30%;
+    height: 50%;
+    padding: 50px;
+    border-radius: 5%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
 }
