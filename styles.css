@@ -14,10 +14,10 @@ h3 {
 }
 
 body {
+    margin: 0%;
     background-image: url(./assets/images/background-pattern-desktop.svg);
     background-repeat: repeat-x;
     background-color: hsl(275, 100%, 97%);
-
 }
 
 p {
