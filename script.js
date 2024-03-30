@@ -4,10 +4,12 @@ const plusIcon = './assets/images/icon-plus.svg'
 const minusIcon = './assets/images/icon-minus.svg'
 
 function toggleAnswer(button) {
-    console.log(button)
     const answerDiv = button.parentElement.nextElementSibling;
-    console.log(answerDiv.style.display)
-    answerDiv.style.display = answerDiv.style.display === "none" ? "block" : "none"
+    if (answerDiv.style.display === "none" || answerDiv.style.display === "") {
+        answerDiv.style.display = "block";
+    } else {
+        answerDiv.style.display = "none";
+    }
 }
 
 actions.forEach(action => {
