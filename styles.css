@@ -59,3 +59,15 @@ p {
 .star-icon {
     margin-right: 5%;
 }
+
+@media only screen and (max-width: 375px) {
+    .faq-container {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .faq-container {
+        width: 40%;
+    }
+}
